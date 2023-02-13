@@ -133,3 +133,21 @@ dmypy.json
 *.zip
 #CSV file
 *.csv
+
+
+outputs/
+!.gitkeep
+
+*.pth
+
+.vscode/
+
+
+notebooks/vision/logs/*
+!notebooks/vision/logs/.gitkeep
+!notebooks/vision/logs/checkpoints/.gitkeep
+!notebooks/vision/logs/checkpoints/lightning_logs/.gitkeep
+
+
+
+
